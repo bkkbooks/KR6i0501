@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0501/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說見正經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0796.xml
+    old_id: T17n0796
+hash: sha256:25d78f44333be14ccd4a07ce8220feecfb1de4de6284d777e0caef49110ea883

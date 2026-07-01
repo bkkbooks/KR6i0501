@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0501/v1
+canonical_location: https://kanripo.org/bkk/KR6i0501/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說見正經
+  identifiers:
+    alt_id:
+    - T17n0796
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0796.xml
+    old_id: T17n0796
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0501_000.yaml, hash: 'sha256:25d78f44333be14ccd4a07ce8220feecfb1de4de6284d777e0caef49110ea883'}
+  - {seq: 1, filename: KR6i0501_001.yaml, hash: 'sha256:b3f20857b04740831203394a55f9f29a1e91d05d2439b65f21e95776b6e36831'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0501_001.markers.yaml, hash: 'sha256:8d55ed1dce999f6eb912f753edcc86b82666d4fc1352376f400ef74b23453d65'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0501_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3221
+  label: 佛說見正經亦名生死變識經
+  type: juan
+  level: 1
+hash: sha256:84239e4cdc15facd66f8c33ff3f4863c44a81c07313a4536a78fcfaa2f30a6fc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
