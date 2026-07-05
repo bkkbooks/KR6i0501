@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0501_000.yaml, hash: 'sha256:25d78f44333be14ccd4a07ce8220feecfb1de4de6284d777e0caef49110ea883'}
-  - {seq: 1, filename: KR6i0501_001.yaml, hash: 'sha256:b3f20857b04740831203394a55f9f29a1e91d05d2439b65f21e95776b6e36831'}
+  - {seq: 1, filename: KR6i0501_001.yaml, hash: 'sha256:527151941b3790a0dd2512aba176b786f2f21e0dbb4037d1cc00e18758868679'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0501_001.markers.yaml, hash: 'sha256:8d55ed1dce999f6eb912f753edcc86b82666d4fc1352376f400ef74b23453d65'}
+  - {seq: 0, role: markers, filename: assets/KR6i0501_000.markers.yaml, hash: 'sha256:564bc38dc193a3289ee2218bc4a6f9aa9d04690c28b2c4dd9fc3f53b5a6e92be'}
+  - {seq: 1, role: markers, filename: assets/KR6i0501_001.markers.yaml, hash: 'sha256:62e284c0075c036701cfef5d923c7d67add62542c01d153aaa7164984e6f800a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說見正經亦名生死變識經
   type: juan
   level: 1
-hash: sha256:84239e4cdc15facd66f8c33ff3f4863c44a81c07313a4536a78fcfaa2f30a6fc
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5615984990055bf2adb423c862c864124e758a6801fd3b460087b9b771266f18
